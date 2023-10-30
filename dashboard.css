@@ -1,0 +1,129 @@
+.Stats {
+  color: #ffffff;
+}
+.Stats label {
+  color: #b3b3b3;
+}
+
+.content {
+  margin-top: 2%;
+  display: flex;
+  gap: 5%;
+}
+.App-card-title {
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #fff;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.App-card-divider {
+  height: 1px;
+  background: #4d4d4e;
+  margin: 1rem -1rem;
+}
+.App-card-content {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  width: 500px;
+  background-color: #151515;
+  color: #b3b3b3;
+}
+
+.App-card-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.label {
+  flex: 1;
+}
+
+.Tooltip-handle {
+  cursor: pointer;
+  border-bottom: 1px dotted transparent;
+}
+
+.Tooltip-handle:hover {
+  outline: 1px dotted red !important;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.App-card2 {
+  background-color: #151515;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 300px;
+  padding: 20px;
+}
+
+.App-card-title2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.App-card-title-mark-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4a90e2;
+  display: flex;
+  align-items: center;
+}
+.App-card-content2 {
+  padding: 10px;
+  width: 300px;
+  color: white;
+  margin-top: 10%;
+}
+.statsCard {
+  display: flex;
+}
+.App-card-row2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.rowContent {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 500px;
+  color: white;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.Tooltip {
+  position: relative;
+}
+
+.Tooltip-handle2 {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  bottom: 100%;
+  left: 0;
+  white-space: nowrap;
+}
+
+.Tooltip:hover .Tooltip-handle {
+  display: block;
+}
